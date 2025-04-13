@@ -1,6 +1,6 @@
 # MISA Electrix - Electric Vehicle Dealership Website
 
-![MISA Electrix Logo](assets/img/favicon.png)
+⚡ MISA Electrix
 
 MISA Electrix is a modern, responsive website for an electric vehicle dealership showcasing various electric vehicles, services, and providing an interactive platform for customers to schedule test drives and maintenance services.
 
