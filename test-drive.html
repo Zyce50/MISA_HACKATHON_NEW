@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Schedule Test Drive - MISA Electrix</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <i class="ri-flashlight-fill"></i>
+                MISA Electrix
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About Us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#popular" class="nav__link">Popular</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#featured" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#services" class="nav__link">Services</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== TEST DRIVE FORM ====================-->
+        <section class="testdrive section" id="testdrive">
+            <h2 class="section__title">
+                Schedule Your Test Drive
+            </h2>
+
+            <div class="testdrive__container container">
+                <form action="#" class="testdrive__form grid">
+                    <div class="testdrive__content">
+                        <input type="text" id="name" class="testdrive__input" placeholder=" ">
+                        <label for="name" class="testdrive__label">Full Name</label>
+                    </div>
+
+                    <div class="testdrive__content">
+                        <input type="email" id="email" class="testdrive__input" placeholder=" ">
+                        <label for="email" class="testdrive__label">Email</label>
+                    </div>
+
+                    <div class="testdrive__content">
+                        <input type="tel" id="phone" class="testdrive__input" placeholder=" ">
+                        <label for="phone" class="testdrive__label">Phone Number</label>
+                    </div>
+
+                    <div class="testdrive__content">
+                        <select id="car" class="testdrive__input" required>
+                            <option value="" disabled selected>Select a vehicle</option>
+                            <option value="porsche-taycan">Porsche Taycan</option>
+                            <option value="porsche-turbo-s">Porsche Turbo S</option>
+                            <option value="tesla-model-x">Tesla Model X</option>
+                            <option value="tesla-model-3">Tesla Model 3</option>
+                            <option value="audi-e-tron">Audi E-tron</option>
+                        </select>
+                        <label for="car" class="testdrive__label">Vehicle of Interest</label>
+                    </div>
+
+                    <div class="testdrive__content">
+                        <input type="text" id="date" class="testdrive__input" placeholder=" ">
+                        <label for="date" class="testdrive__label">Preferred Date</label>
+                    </div>
+
+                    <div class="testdrive__content">
+                        <input type="text" id="time" class="testdrive__input" placeholder=" ">
+                        <label for="time" class="testdrive__label">Preferred Time</label>
+                    </div>
+
+                    <div class="testdrive__content testdrive__textarea">
+                        <textarea id="message" class="testdrive__input" placeholder=" "></textarea>
+                        <label for="message" class="testdrive__label">Additional Notes</label>
+                    </div>
+
+                    <button type="submit" class="button testdrive__button">
+                        Schedule Test Drive
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="shape shape__big"></div>
+        <div class="shape shape__small"></div>
+
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="index.html" class="footer__logo">
+                    <i class="ri-flashlight-fill"></i> MISA Electrix
+                </a>
+                <p class="footer__description">
+                    We offer the best electric cars of <br> 
+                    the most recognized brands in <br> 
+                    the world.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Company
+                </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="about.html" class="footer__link">About</a>    
+                    </li>
+                    <li>
+                        <a href="index.html#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">History</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Shop</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Information
+                </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Request a quote</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Find a dealer</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Services</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Follow us
+                </h3>
+
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer__copy">
+            &#169; MISA Electrix. All rights reserved
+        </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP JS ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 
